@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SiA-CDPlayer:war exploded">
+    <output-path>$PROJECT_DIR$/target/SIA-CDPlayer-1.0.0-BUILD-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SiA-CDPlayer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.junit.contrib:junit-theories:4.12" />
+          <element id="library" level="project" name="Maven: org.javaruntype:javaruntype:1.2" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.1.2" />
+          <element id="library" level="project" name="Maven: com.github.stefanbirkner:system-rules:1.16.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/SIA-CDPlayer-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="SiA-CDPlayer/web/Web" />
+    </root>
+  </artifact>
+</component>
